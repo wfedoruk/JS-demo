@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+        
+    
+        <title>SheepFish</title>
+    </head>
+    <body>  
+    
+      <link rel="stylesheet" href="src/app.css">
+      
+ 
+        <div class="container ">
+            <div class="input_block">
+                <div class="image_input" >
+                  <label>
+                    Картинка
+                    <input id="image" type="file" class="input_image" placeholder="Картинка" accept="image/*">
+                  </label>   
+                </div>
+
+                <div class="text_input">
+                    <div >
+                        <input
+                        id="heading"
+                        class="text" 
+                        type="text" 
+                        required 
+                        placeholder="Заголовок" 
+                        title="Только кириллица не более 20 символов"  
+                        maxlength="20">
+                    </div>
+                    <div >
+                        <input id="link" type="url" placeholder="Ссылка">
+                    </div>
+                    <div>
+                        <textarea id="text" class="text" title="Только кириллица не более 250 символов" maxlength="250"></textarea>
+                    </div>
+                    <div class="add">
+                      <button id="create" type="button">
+                          Создать
+                      </button>
+                    </div>
+                </div>
+            </div>
+          <div class="more">
+            <button id="more"> 
+              Просмотреть еще
+            </button>
+          </div>
+          <div class="render">
+            <div class="preloader">
+              <div class="logo">
+                <p>Пожалуйста, подождите</p>
+              </div>
+            </div> 
+          
+            <div class="blocks" id="blocks">
+              <!-- <div class="block">
+                <a href = "">
+                  <div class="link">
+                  
+                    <div class="image_inner">
+                      <img src="" alt="">
+                    </div>
+                    <div class="heading_inner">
+                      
+                    </div>
+                    <div class="text_inner">
+                      
+                    </div>
+                  </div>
+                </a>  
+              </div>  -->
+            </div>
+          </div> 
+         
+          
+          
+        </div>
+      
+        <script src="src/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,165 @@
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.input_block {
+  display: flex;
+  border: 1px solid black;
+  width: 900px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.image_input{
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 175px;
+  line-height: 175px;
+  border: 1px solid black;
+  margin: 12.5px;
+  text-align: center;
+
+  cursor: pointer;
+  background-color: lightgrey;
+  
+}
+
+.input_image{
+  display: none;
+}
+
+.image_input label {
+  display: inline-block;
+  width: 250px;
+  height: 175px;
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#text {
+  height: 75px;
+}
+.image {
+  width: 375px;
+}
+
+input, textarea {
+  width: 605px;
+  margin: 12.5px 12.5px 0 0;
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+}
+
+input:invalid{
+  border-color: red;
+  color: red;
+}
+
+.add button {
+  width: 125px;
+  height: 22px;
+  float: right;
+  margin: 6.5px 12.5px 0 0;
+  background-color: lightgrey;
+  border: none;
+}
+
+.more {
+  margin-bottom: 12px;
+  display: none;
+}
+
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+  
+  width: 900px;
+  
+ 
+}
+
+.block {
+  width: 30%;
+  border-radius: 5px;
+  background-color: lightgrey;
+  margin-left: 22px;
+  margin-bottom: 10px;
+  
+}
+
+.image_inner {
+  width: 250px;
+  height: 200px;
+  border: 1px solid gray;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+.image_inner image {
+  width: 225px;
+  
+}
+
+.heading_inner {
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.text_inner {
+  width: 250px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.render {
+  position: relative;
+}
+
+  .preloader{
+	display: none;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+	background-color: silver;
+	z-index: 9999;
+  }
+	.logo{
+		width: 500px;
+		height: 500px;
+		background: white;
+		background-repeat: no-repeat;
+  }
+
+  p {
+    font-size: 75px;
+    text-align: center;
+  }
+
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity 1.5s;
+  }
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
+  }
+
+  Image-input__image {
+    max-width: 100%;
+    border-radius: 1px;
+    display: block;
+    width: 200px;
+    height: 100px;
+}
+
+	
